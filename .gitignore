@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# dotenv environment files
+.env
+.env.*.local
+
+# Output directories
+dist/
+build/
+coverage/
+tmp/
+temp/
+.cache/
+.next/
+out/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+*.tgz
+*.swp
+*.bak
+
+# Optional: Ignore eslint cache
+.eslintcache
